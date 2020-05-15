@@ -5,6 +5,10 @@
   "repository": "https://github.com/mango906/webpack_practice.git",
   "author": "mango906 <minkb01@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --config ./config/webpack.config.dev --hot",
+    "build": "webpack --config ./config/webpack.config.prod"
+  },
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
